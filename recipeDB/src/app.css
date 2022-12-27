@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply p-0 m-0;
+}
+
+body {
+    background: #E5DAC0;
+}
+
+html {
+    @apply flex items-center flex-col;
+}
+
+button {
+    @apply text-xl font-light cursor-pointer relative bg-white;
+    letter-spacing: 1px;
+    outline: 0;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+#about {
+    @apply font-bold;
+    color: #ECE6DC;
+    background: #AB5839;
+    border: 2px solid #0B0A0F;
+    border-radius: 12px;
+    padding: 10px 40px 10px;
+}
+
+input {
+    border: 1px solid black;
+}
